@@ -572,6 +572,7 @@ $(document).on('submit', '.fileUploadForm', function (ev){
             collectAddItemForm(data);
             console.log(data);
         }
+        .fail('err')
     });
 });
 

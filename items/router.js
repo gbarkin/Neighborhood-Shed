@@ -165,6 +165,9 @@ Item.create({
     res.status(500).json({error: 'wrong wrong'});
 });
 })
+.catch(err=>{
+    console.error(err);
+})
 })
 
 //delete an item
